@@ -6,7 +6,12 @@
     "name": "Travis Fischer",
     "email": "fisch0920@gmail.com"
   },
+  "scripts": {
+    "test": "tape test.js && npm run lint",
+    "lint": "standard"
+  },
   "devDependencies": {
+    "standard": "^8.6.0",
     "tape": "^4.6.3"
   },
   "keywords": [
@@ -26,8 +31,5 @@
   },
   "bugs": {
     "url": "https://github.com/fisch0920/dissolve/issues"
-  },
-  "scripts": {
-    "test": "tape test.js"
   }
 }

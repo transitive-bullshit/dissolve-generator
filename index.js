@@ -5,8 +5,6 @@
  * in the domain.
  */
 
-const Readable = require('stream').Readable
-
 const RAND_MASKS = [
   0x00000001, 0x00000003, 0x00000006, 0x0000000C, 0x00000014, 0x00000030,
   0x00000060, 0x000000B8, 0x00000110, 0x00000240, 0x00000500, 0x00000CA0,
@@ -22,7 +20,7 @@ const RAND_MASKS = [
  *
  * @return {Generator<Tuple>}
  */
-const generate = module.exports = function *(width, height) {
+module.exports = function *(width, height) {
   const size = width * height
   const bitWidth = getBitWidth(size)
   const mask = RAND_MASKS[bitWidth - 1]
@@ -37,7 +35,6 @@ const generate = module.exports = function *(width, height) {
 
     // iterate and ignore samples outside of our target rectangular area
     do {
-      const s = seq
       seq = (seq >> 1) ^ ((seq & 1) * mask)
     } while (seq > size)
   } while (seq !== 1)

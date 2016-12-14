@@ -1,14 +1,18 @@
-# Dissolve Generator
+# Dissolve
 
 > Cool 2D dissolve effect generator
 
-This module exposes a generator for generating pseudorandom sample points over a 2D integer grid.
+This module exposes a generator for generating pseudorandom points over an integer grid.
 
-The order in which the samples are generated appears random, but it is actually quite deterministic and, in particular, [space-filling](https://www.wikiwand.com/en/Space-filling_curve) in that it the samples are guaranteed to *visit* every point in the domain.
+The generated samples appear random, but they are actually quite deterministic and, in particular, [space-filling](https://www.wikiwand.com/en/Space-filling_curve) in that it the samples are guaranteed to *visit* every point in the domain.
 
 This effect was used in a lot of retro video games to dissolve the screen between foreground and background images.
 
 ## Usage
+
+```bash
+npm install dissolve
+```
 
 ```javascript
 const dissolve = require('dissolve')
@@ -16,7 +20,7 @@ const dissolve = require('dissolve')
 const generator = dissolve(300, 400)
 generator.next()
 generator.next()
-// ...
+// ... will generate a sample for each of the 300 * 400 points in the domain
 ```
 
 ## Citation
