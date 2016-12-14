@@ -6,7 +6,7 @@
 
 This module exposes a generator for generating pseudorandom points over a 2D integer grid.
 
-The generated points appear random, but they are actually quite deterministic and, in particular, [space-filling](https://www.wikiwand.com/en/Space-filling_curve) in that it the samples are guaranteed to *visit* every point in the domain.
+The generated points appear random, but they are actually quite deterministic and, in particular, [space-filling](https://www.wikiwand.com/en/Space-filling_curve) in that the samples are guaranteed to *visit* every point in the domain.
 
 This effect was used in a lot of retro video games to transition the screen between foreground and background images.
 
