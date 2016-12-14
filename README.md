@@ -20,8 +20,12 @@ npm install dissolve-generator
 const dissolve = require('dissolve-generator')
 
 const generator = dissolve(300, 400)
+
+const sample = generator.next()
+console.log(sample.value[0], sample.value[1]) // x, y
+
 generator.next()
-generator.next()
+console.log(sample.value[0], sample.value[1]) // x, y
 // ... will generate a sample for each of the 300 * 400 points in the domain
 ```
 
