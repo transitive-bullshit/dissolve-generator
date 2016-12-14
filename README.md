@@ -22,13 +22,17 @@ npm install dissolve-generator
 ```javascript
 const dissolve = require('dissolve-generator')
 
+// generate samples in a grid of width 300, height 400
 const generator = dissolve(300, 400)
 
+// generate first sample
 const sample = generator.next()
 console.log(sample.value[0], sample.value[1]) // x, y
 
+// generate second sample
 generator.next()
 console.log(sample.value[0], sample.value[1]) // x, y
+
 // ... will generate a sample for each of the 300 * 400 points in the domain
 ```
 
