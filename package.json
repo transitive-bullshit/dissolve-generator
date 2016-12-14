@@ -1,11 +1,8 @@
 {
-  "name": "dissolve",
+  "name": "dissolve-generator",
   "description": "Dissolve effect 2D generator",
   "version": "1.0.0",
-  "author": {
-    "name": "Travis Fischer",
-    "email": "fisch0920@gmail.com"
-  },
+  "author": "Travis Fischer <fisch0920@gmail.com>",
   "scripts": {
     "test": "tape test.js && npm run lint",
     "lint": "standard",
@@ -29,9 +26,16 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/fisch0920/dissolve.git"
+    "url": "git://github.com/fisch0920/dissolve-generator.git"
   },
   "bugs": {
-    "url": "https://github.com/fisch0920/dissolve/issues"
+    "url": "https://github.com/fisch0920/dissolve-generator/issues"
+  },
+  "homepage": "https://github.com/fisch0920/dissolve-generator#readme",
+  "dependencies": {
+    "browserify": "^13.1.1",
+    "dat.gui": "^0.6.1",
+    "tape": "^4.6.3",
+    "standard": "^8.6.0"
   }
 }

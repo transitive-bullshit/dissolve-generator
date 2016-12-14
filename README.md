@@ -2,7 +2,7 @@
 
 > Cool 2D dissolve effect generator
 
-![Dissolve Demo](https://raw.github.com/fisch0920/dissolve/master/demo/demo.gif)
+![Dissolve Demo](https://raw.github.com/fisch0920/dissolve-generator/master/demo/demo.gif)
 
 This module exposes a generator for generating pseudorandom points over a 2D integer grid.
 
@@ -13,11 +13,11 @@ This effect was used in a lot of retro video games to transition the screen betw
 ## Usage
 
 ```bash
-npm install dissolve
+npm install dissolve-generator
 ```
 
 ```javascript
-const dissolve = require('dissolve')
+const dissolve = require('dissolve-generator')
 
 const generator = dissolve(300, 400)
 generator.next()
