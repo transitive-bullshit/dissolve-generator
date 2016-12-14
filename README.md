@@ -2,6 +2,8 @@
 
 > Cool 2D dissolve effect generator
 
+![Dissolve Demo](https://raw.github.com/fisch0920/dissolve/master/demo/demo.gif)
+
 This module exposes a generator for generating pseudorandom points over an integer grid.
 
 The generated samples appear random, but they are actually quite deterministic and, in particular, [space-filling](https://www.wikiwand.com/en/Space-filling_curve) in that it the samples are guaranteed to *visit* every point in the domain.
