@@ -1,0 +1,33 @@
+{
+  "name": "dissolve",
+  "description": "Dissolve effect 2D generator",
+  "version": "1.0.0",
+  "author": {
+    "name": "Travis Fischer",
+    "email": "fisch0920@gmail.com"
+  },
+  "devDependencies": {
+    "tape": "^4.6.3"
+  },
+  "keywords": [
+    "dissolve",
+    "generator",
+    "sample",
+    "effect",
+    "2d",
+    "mike morton",
+    "point sample"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/fisch0920/dissolve.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fisch0920/dissolve/issues"
+  },
+  "scripts": {
+    "test": "tape test.js"
+  }
+}
