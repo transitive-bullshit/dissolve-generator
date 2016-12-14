@@ -37,7 +37,7 @@ console.log(sample.value[0], sample.value[1]) // x, y
 ```
 
 **API:**
-```
+```javascript
 require('dissolve-generator')(Number width, Number height) => Generator<Tuple<Number x, Number y>>
 ```
 
