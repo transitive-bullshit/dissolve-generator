@@ -12,9 +12,12 @@ This effect was used in a lot of retro video games to transition the screen betw
 
 ## Usage
 
+**Installation:**
 ```bash
 npm install dissolve-generator
 ```
+
+**Example usage:**
 
 ```javascript
 const dissolve = require('dissolve-generator')
@@ -27,6 +30,11 @@ console.log(sample.value[0], sample.value[1]) // x, y
 generator.next()
 console.log(sample.value[0], sample.value[1]) // x, y
 // ... will generate a sample for each of the 300 * 400 points in the domain
+```
+
+**API:**
+```
+require('dissolve-generator')(Number width, Number height) => Generator<Tuple<Number x, Number y>>
 ```
 
 Note that each sample the returned generator yields is a 2-element array (x,y tuple).
