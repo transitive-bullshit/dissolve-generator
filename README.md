@@ -29,6 +29,8 @@ console.log(sample.value[0], sample.value[1]) // x, y
 // ... will generate a sample for each of the 300 * 400 points in the domain
 ```
 
+Note that each sample the returned generator yields is a 2-element array (x,y tuple).
+
 ## Demo
 
 There is a demo which visualizes the algorithm under the `demo/` folder.
