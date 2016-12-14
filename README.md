@@ -25,6 +25,10 @@ generator.next()
 // ... will generate a sample for each of the 300 * 400 points in the domain
 ```
 
+## Demo
+
+There is a demo which visualizes the algorithm under the `demo/` folder.
+
 ## Citation
 
 This effect was originally created by Mike Morton, appearing in the first volume of the classic Graphics Gems series.
