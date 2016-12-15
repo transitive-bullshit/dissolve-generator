@@ -1,6 +1,6 @@
 # Dissolve
 
-> Cool 2D dissolve effect generator
+> Cool 2D dissolve effect generator ([demo](https://fisch0920.github.io/dissolve-generator/demo))
 
 ![Dissolve Demo](https://raw.github.com/fisch0920/dissolve-generator/master/demo/demo.gif)
 
@@ -45,7 +45,7 @@ Note that each sample the returned generator yields is a 2-element array (x,y tu
 
 ## Demo
 
-There is a demo which visualizes the algorithm under the `demo/` folder.
+There is a [demo](https://fisch0920.github.io/dissolve-generator/demo) which visualizes the algorithm under the `demo/` folder.
 
 ## Citation
 
