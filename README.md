@@ -1,8 +1,8 @@
 # Dissolve
 
-> Cool 2D dissolve effect generator ([demo](https://fisch0920.github.io/dissolve-generator/demo))
+> Cool 2D dissolve effect generator ([demo](https://transitive-bullshit.github.io/dissolve-generator/demo))
 
-![Dissolve Demo](https://raw.github.com/fisch0920/dissolve-generator/master/demo/demo.gif)
+![Dissolve Demo](https://raw.github.com/transitive-bullshit/dissolve-generator/master/demo/demo.gif)
 
 This module exposes a generator for generating pseudorandom points over a 2D integer grid.
 
@@ -45,7 +45,7 @@ Note that each sample the returned generator yields is a 2-element array (x,y tu
 
 ## Demo
 
-There is a [demo](https://fisch0920.github.io/dissolve-generator/demo) which visualizes the algorithm under the `demo/` folder.
+There is a [demo](https://transitive-bullshit.github.io/dissolve-generator/demo) which visualizes the algorithm under the `demo/` folder.
 
 ## Citation
 

@@ -1,15 +1,28 @@
 {
   "name": "dissolve-generator",
   "description": "Dissolve effect 2D generator",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Travis Fischer <fisch0920@gmail.com>",
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/transitive-bullshit/dissolve-generator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/transitive-bullshit/dissolve-generator/issues"
+  },
+  "homepage": "https://github.com/transitive-bullshit/dissolve-generator",
   "scripts": {
     "test": "tape test.js && npm run lint",
-    "lint": "standard",
-    "browserify": "browserify index.js --standalone dissolve -o demo/dissolve.js"
+    "lint": "standard *.js",
+    "browserify": "browserify index.js --standalone dissolve -o demo/dissolve.js",
+    "start": "serve -s demo"
   },
   "devDependencies": {
     "browserify": "^13.1.1",
+    "dat.gui": "^0.6.1",
+    "serve": "^6.4.1",
     "standard": "^8.6.0",
     "tape": "^4.6.3"
   },
@@ -21,21 +34,5 @@
     "2d",
     "mike morton",
     "point sample"
-  ],
-  "license": "MIT",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/fisch0920/dissolve-generator.git"
-  },
-  "bugs": {
-    "url": "https://github.com/fisch0920/dissolve-generator/issues"
-  },
-  "homepage": "https://github.com/fisch0920/dissolve-generator#readme",
-  "dependencies": {
-    "browserify": "^13.1.1",
-    "dat.gui": "^0.6.1",
-    "tape": "^4.6.3",
-    "standard": "^8.6.0"
-  }
+  ]
 }
