@@ -1,7 +1,7 @@
 {
   "name": "dissolve-generator",
   "description": "Dissolve effect 2D generator",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": "Travis Fischer <fisch0920@gmail.com>",
   "license": "MIT",
   "main": "index.js",
