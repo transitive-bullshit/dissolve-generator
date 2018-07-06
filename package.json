@@ -5,6 +5,7 @@
   "author": "Travis Fischer <fisch0920@gmail.com>",
   "license": "MIT",
   "main": "index.js",
+  "reveal": true,
   "repository": {
     "type": "git",
     "url": "git://github.com/transitive-bullshit/dissolve-generator.git"
