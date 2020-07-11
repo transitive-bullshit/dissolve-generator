@@ -57,3 +57,5 @@ This effect was originally created by Mike Morton, appearing in the first volume
 ## License
 
 MIT (c) Travis Fischer 2016
+
+Support my OSS work by <a href="https://twitter.com/transitive_bs">following me on twitter <img src="https://storage.googleapis.com/saasify-assets/twitter-logo.svg" alt="twitter" height="24px" align="center"></a>
